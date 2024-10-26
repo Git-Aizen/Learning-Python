@@ -1,8 +1,8 @@
 def sum(a, b):
-    return (a + b)
+    return a + b
 
 
-a = int(input('Enter 1st number: '))
-b = int(input('Enter 2nd number: '))
+a = int(input("Enter the number: "))
+b = int(input("Enter the number: "))
 
-print(f'Sum of {a} and {b} is {sum(a, b)}')
+print(f"{a} + {b} = {sum(a, b)}")
